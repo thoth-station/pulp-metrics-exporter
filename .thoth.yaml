@@ -1,36 +1,27 @@
 host: khemenu.thoth-station.ninja
-tls_verify: false
 requirements_format: pipenv
 
 runtime_environments:
-  - name: default
+  - name: rhel8
     operating_system:
-      name: ubi
-      version: "8"
+      name: rhel
+      version: "8.0"
     python_version: "3.8"
     recommendation_type: latest
 
-
-# https://thoth-station.ninja/docs/developers/kebechet/managers.html#available-managers
 managers:
-  - name: info
-    configuration:
-      enabled: true
-  - name: label-bot
-    configuration:
-      enabled: false
   - name: pipfile-requirements
-    configuration:
-      enabled: false
-  - name: thoth-advise
-    configuration:
-      enabled: false
-  - name: thoth-provenance
-    configuration:
-      enabled: false
   - name: update
     configuration:
-      enabled: true
+      labels: [bot]
+  - name: info
   - name: version
     configuration:
-      enabled: true
+      maintainers:
+        - goern
+        - fridex
+        - harshad16
+      assignees:
+        - sesheta
+      labels: [bot]
+      changelog_file: true
