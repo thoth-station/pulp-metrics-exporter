@@ -15,7 +15,7 @@ runtime_environments:
 managers:
   - name: info
     configuration:
-      enabled: false
+      enabled: true
   - name: label-bot
     configuration:
       enabled: false
@@ -30,7 +30,7 @@ managers:
       enabled: false
   - name: update
     configuration:
-      enabled: false
+      enabled: true
   - name: version
     configuration:
-      enabled: false
+      enabled: true
