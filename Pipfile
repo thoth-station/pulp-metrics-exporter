@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+prometheus-client = "*"
+thoth-common = "*"
+flask-cors = "*"
+gunicorn = "*"
+decorator = "*"
+sentry-sdk = {extras = ["flask"],version = "*"}
+aiocontextvars = "*"
+prometheus-api-client = "*"
+requests = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
