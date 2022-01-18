@@ -1,10 +1,12 @@
-# Metrics Exporter for Pulp
+Metrics Exporter for Pulp
+--------------------------
 
 This is a Prometheus Metrics exporter for Pulp.
 
 The code is based on `Thoth's metrics-exporter <https://github.com/thoth-station/metrics-exporter>`__.
 
-## Copyright
+Copyright
+=========
 
 Copyright (C) 2022 Red Hat Inc.
 
