@@ -22,7 +22,7 @@
 from thoth.common import __version__ as __common__version__
 from thoth.common import init_logging
 
-__version__ = "0.0.0"
+__version__ = "0.1.0"
 __service_version__ = f"{__version__}+common.{__common__version__}"
 
 
